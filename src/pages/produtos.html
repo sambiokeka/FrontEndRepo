@@ -12,3 +12,96 @@
     
 </body>
 </html>
+
+int vermelho = 12;
+int amarelo = 10;
+int verde = 8;
+
+int vermelhoPedestre = 6;
+int verdePedestre = 4;
+
+int tempo = 10000; // Tempo fixo para vermelho e amarelo
+
+int botaoLed = 2;
+int botao = 5;
+bool botaoPressionado = false;
+
+unsigned long tempoAnterior = 0;
+int estado = 1; // 1 = vermelho, 2 = amarelo, 3 = verde
+unsigned long tempoVerde = 20000; // Tempo base do verde para carros
+unsigned long tempoVerdeAtual = tempoVerde;
+
+void setup() {
+  pinMode(vermelho, OUTPUT);
+  pinMode(amarelo, OUTPUT);
+  pinMode(verde, OUTPUT);	
+  pinMode(verdePedestre, OUTPUT);
+  pinMode(vermelhoPedestre, OUTPUT);
+  
+  pinMode(botaoLed, OUTPUT);
+  pinMode(botao, INPUT);
+}
+
+void loop() {
+  unsigned long agora = millis();
+
+  // Verifica se o botão foi apertado durante o verde
+  if (digitalRead(botao) == HIGH && !botaoPressionado) {
+    if (estado == 3) { // Só durante o verde
+      unsigned long tempoDecorrido = agora - tempoAnterior;
+      unsigned long tempoRestante = tempoVerdeAtual - tempoDecorrido;
+
+      if (tempoRestante > 10000) {
+        botaoPressionado = true;
+        tempoVerdeAtual = 10000; // Reduz para 10s
+        digitalWrite(botaoLed, HIGH);
+        delay(100);
+        digitalWrite(botaoLed, LOW);
+      }
+      // Se tempoRestante for menor ou igual a 10000, ignora o botão
+    } else {
+      // Se botão for apertado fora do verde, já prepara a redução pro próximo ciclo
+      botaoPressionado = true;
+      tempoVerdeAtual = 10000;
+      digitalWrite(botaoLed, HIGH);
+      delay(100);
+      digitalWrite(botaoLed, LOW);
+    }
+  }
+
+  switch (estado) {
+    case 1: // Vermelho para carros, verde para pedestres
+      digitalWrite(vermelho, HIGH);
+      digitalWrite(verdePedestre, HIGH);
+      digitalWrite(vermelhoPedestre, LOW);
+      digitalWrite(amarelo, LOW);
+      digitalWrite(verde, LOW);
+      if (agora - tempoAnterior >= tempo) {
+        estado = 2;
+        tempoAnterior = agora;
+      }
+      break;
+
+    case 2: // Amarelo para carros
+      digitalWrite(amarelo, HIGH);
+      if (agora - tempoAnterior >= tempo) {
+        estado = 3;
+        tempoAnterior = agora;
+      }
+      break;
+
+    case 3: // Verde para carros, vermelho para pedestres
+      digitalWrite(vermelho, LOW);
+      digitalWrite(amarelo, LOW);
+      digitalWrite(verde, HIGH);
+      digitalWrite(verdePedestre, LOW);
+      digitalWrite(vermelhoPedestre, HIGH);
+      if (agora - tempoAnterior >= tempoVerdeAtual) {
+        estado = 1;
+        tempoAnterior = agora;
+        botaoPressionado = false;      // Libera o botão pro próximo ciclo
+        tempoVerdeAtual = tempoVerde;  // Restaura tempo original do verde
+      }
+      break;
+  }
+}
