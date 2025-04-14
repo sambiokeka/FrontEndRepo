@@ -51,7 +51,8 @@ body {
 }
 
 
-.conteudo_home h2 {
+.conteudo_home h3 {
+    margin-top: 1vh;
     font-size: 3.7rem;
 }
 
