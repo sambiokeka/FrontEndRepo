@@ -1,1 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #faf9f7;
+}
 
+.header {
+  background-color: #4b1c24;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 span {
+  color: #e0bd66;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+.vinhos {
+  text-align: center;
+}
+
+.subtitulo {
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.vinho-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.vinho-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.vinho-card img {
+  height: 250px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.vinho-card h3 {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.vinho-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+
+.vinho-card button {
+  background-color: #3e0d1b;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #4b1c24;
+  color: white;
+  padding: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-info, .footer-links {
+  max-width: 300px;
+}
+
+.footer-info h4, .footer-links h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.social img {
+  width: 24px;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.direitos {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
