@@ -3,120 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vinheria Agnello</title>
+  <title>Produtos Vinheria Agnello</title>
   <link rel="stylesheet" href="../css/pages_css/produtos.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/todos.css">
 </head>
 <body>
 
   <header class="header">
-    <div class="container">
-      <h1>Vinheria <span>Agnello</span></h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="vinicolas.html">Vinhos</a></li>
-          <li><a href="sobre_nos.html">Sobre Nós</a></li>
-          <li><a href="contatos.html">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1 class="logo">Vinheria Agnello</h1>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="produtos.html" id="selected">Produtos</a></li>
+        <li><a href="vinicolas.html">Vinícolas</a></li>
+        <li><a href="sobre_nos.html">Sobre nós</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section class="vinhos">
-      <h2>Vinhos</h2>
-      <p class="subtitulo">Conheça nossos vinhos</p>
-      <div class="vinho-grid">
+  <div class="content">
+    <main>
+      <section class="vinhos">
+        <h2>Vinhos</h2>
+        <p class="subtitulo">Conheça nossos vinhos</p>
+        <div class="vinho-grid">
 
-        <div class="vinho-card">
-          <img src="imagens/vinho1.png" alt="Matetic EQ Sauvignon Blanc">
-          <h3>Matetic EQ Coastal Sauvignon Blanc 2021</h3>
-          <p>Fresco e aromático, com notas de maracujá, grapefruit e grama fresca. Ideal para dias quentes ou para acompanhar pratos leves e saladas.</p>
+          <div class="vinho-card">
+            <img src="imagens/vinho1.png" alt="Matetic EQ Sauvignon Blanc">
+            <h3>Matetic EQ Coastal Sauvignon Blanc 2021</h3>
+            <p>Fresco e aromático, com notas de maracujá, grapefruit e grama fresca. Ideal para dias quentes ou para acompanhar pratos leves e saladas.</p>
+          </div>
+
+          <div class="vinho-card">
+            <img src="imagens/vinho2.png" alt="Doña Paula Estate">
+            <h3>Doña Paula Estate</h3>
+            <p>Elegante e frutado, com notas de cereja vermelha, framboesa e especiarias doces. Perfeito para uma noite romântica ou para acompanhar carnes vermelhas magras.</p>
+          </div>
+
+          <div class="vinho-card">
+            <img src="imagens/vinho3.png" alt="Zuccardi Q Malbec">
+            <h3>Zuccardi Q Malbec 2020</h3>
+            <p>Um Malbec clássico de Mendoza, com aromas intensos de frutas vermelhas e negras, especiarias e chocolate. Na boca, é encorpado e estruturado.</p>
+          </div>
+
+          <div class="vinho-card">
+            <img src="imagens/vinho4.png" alt="Fonseca Porto Tawny">
+            <h3>Fonseca Porto Tawny</h3>
+            <p>Doce e complexo, com aromas de frutas secas, especiarias e caramelo. Ideal para sobremesas, queijos azuis e como digestivo.</p>
+          </div>
+
+          <div class="vinho-card">
+            <img src="imagens/vinho5.png" alt="Vallado Douro Tinto">
+            <h3>Vallado Douro Tinto 2021</h3>
+            <p>Encorpado e complexo, com notas de frutas negras maduras, especiarias e chocolate amargo. Ideal para pratos robustos.</p>
+          </div>
+
+          <div class="vinho-card">
+            <img src="imagens/vinho6.png" alt="Brut Celebration">
+            <h3>Brut Celebration</h3>
+            <p>Espumante seco e vibrante, perfeito para brindes e festas. Harmoniza com canapés e entradas leves.</p>
+          </div>
+
+          <div class="vinho-card">
+          <img src="imagens/vinho7.png" alt="Catena Zapata Malbec Argentino 2021">
+          <h3>Catena Zapata Malbec Argentino 2021</h3>
+          <p>Um ícone da viticultura argentina. Complexo e elegante, com notas de ameixa, cassis, violeta e toques defumados. Perfeito para carnes nobres e ocasiões especiais.</p>
+          </div>
+
+          <div class="vinho-card">
+          <img src="imagens/vinho8.png" alt="Montes Alpha Cabernet Sauvignon 2020">
+          <h3>Montes Alpha Cabernet Sauvignon 2020</h3>
+          <p>Vinho chileno encorpado, com aromas de frutas pretas maduras, menta e baunilha. Ótima estrutura e taninos macios. Harmoniza bem com queijos fortes e carnes vermelhas.</p>
+          </div>
+
+          <div class="vinho-card">
+          <img src="imagens/vinho9.png" alt="Châteauneuf-du-Pape Domaine du Vieux Télégraphe 2019">
+          <h3>Châteauneuf-du-Pape Domaine du Vieux Télégraphe 2019</h3>
+          <p>Clássico francês do Rhône, traz intensidade e elegância com notas de frutas vermelhas, ervas provençais e especiarias. Ideal para jantares refinados.</p>
+          </div>
+
+          <div class="vinho-card">
+          <img src="imagens/vinho10.png" alt="Esporão Reserva Branco 2022">
+          <h3>Esporão Reserva Branco 2022</h3>
+          <p>Vinho branco português aromático, com toques cítricos, damasco e madeira sutil. Fresco e estruturado, combina com frutos do mar, risotos e saladas sofisticadas.</p>
+          </div>
         </div>
+      </section>
+    </main>
+  </div>
 
-        <div class="vinho-card">
-          <img src="imagens/vinho2.png" alt="Doña Paula Estate">
-          <h3>Doña Paula Estate</h3>
-          <p>Elegante e frutado, com notas de cereja vermelha, framboesa e especiarias doces. Perfeito para uma noite romântica ou para acompanhar carnes vermelhas magras.</p>
-        </div>
-
-        <div class="vinho-card">
-          <img src="imagens/vinho3.png" alt="Zuccardi Q Malbec">
-          <h3>Zuccardi Q Malbec 2020</h3>
-          <p>Um Malbec clássico de Mendoza, com aromas intensos de frutas vermelhas e negras, especiarias e chocolate. Na boca, é encorpado e estruturado.</p>
-        </div>
-
-        <div class="vinho-card">
-          <img src="imagens/vinho4.png" alt="Fonseca Porto Tawny">
-          <h3>Fonseca Porto Tawny</h3>
-          <p>Doce e complexo, com aromas de frutas secas, especiarias e caramelo. Ideal para sobremesas, queijos azuis e como digestivo.</p>
-        </div>
-
-        <div class="vinho-card">
-          <img src="imagens/vinho5.png" alt="Vallado Douro Tinto">
-          <h3>Vallado Douro Tinto 2021</h3>
-          <p>Encorpado e complexo, com notas de frutas negras maduras, especiarias e chocolate amargo. Ideal para pratos robustos.</p>
-        </div>
-
-        <div class="vinho-card">
-          <img src="imagens/vinho6.png" alt="Brut Celebration">
-          <h3>Brut Celebration</h3>
-          <p>Espumante seco e vibrante, perfeito para brindes e festas. Harmoniza com canapés e entradas leves.</p>
-        </div>
-
-        <div class="vinho-card">
-        <img src="imagens/vinho7.png" alt="Catena Zapata Malbec Argentino 2021">
-        <h3>Catena Zapata Malbec Argentino 2021</h3>
-        <p>Um ícone da viticultura argentina. Complexo e elegante, com notas de ameixa, cassis, violeta e toques defumados. Perfeito para carnes nobres e ocasiões especiais.</p>
-        </div>
-
-        <div class="vinho-card">
-        <img src="imagens/vinho8.png" alt="Montes Alpha Cabernet Sauvignon 2020">
-        <h3>Montes Alpha Cabernet Sauvignon 2020</h3>
-        <p>Vinho chileno encorpado, com aromas de frutas pretas maduras, menta e baunilha. Ótima estrutura e taninos macios. Harmoniza bem com queijos fortes e carnes vermelhas.</p>
-        </div>
-
-        <div class="vinho-card">
-        <img src="imagens/vinho9.png" alt="Châteauneuf-du-Pape Domaine du Vieux Télégraphe 2019">
-        <h3>Châteauneuf-du-Pape Domaine du Vieux Télégraphe 2019</h3>
-        <p>Clássico francês do Rhône, traz intensidade e elegância com notas de frutas vermelhas, ervas provençais e especiarias. Ideal para jantares refinados.</p>
-        </div>
-
-        <div class="vinho-card">
-        <img src="imagens/vinho10.png" alt="Esporão Reserva Branco 2022">
-        <h3>Esporão Reserva Branco 2022</h3>
-        <p>Vinho branco português aromático, com toques cítricos, damasco e madeira sutil. Fresco e estruturado, combina com frutos do mar, risotos e saladas sofisticadas.</p>
-        </div>
-
-
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-container">
-      <div class="footer-info">
-        <h4>Vinheria Agnello</h4>
-        <p>+55 11 99999-9999<br>vinheriaagnello@gmail.com<br>Rua Oscar Freire, 123 - SP</p>
-        <div class="social">
-          <a href="#"><img src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png" alt="Instagram"></a>
-          <a href="#"><img src="https://img.icons8.com/m_rounded/512/FFFFFF/facebook-new.png" alt="Facebook"></a>
-          <a href="#"><img src="https://img.icons8.com/ios11/512/FFFFFF/youtube-play.png" alt="YouTube"></a>
-        </div>
-      </div>
-      <div class="footer-links">
-        <h4>Informações</h4>
-        <ul>
-          <li><a href="#">Vinhos</a></li>
-          <li><a href="#">Sobre Nós</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </div>
+  <footer class="footer">
+    <div class="copyright">
+        <h6><span>Vinheria Agnello © Todos os direitos reservados.</span></h6>
     </div>
-    <p class="direitos">Vinheria Agnello ® Todos os direitos reservados.</p>
   </footer>
 
 </body>
