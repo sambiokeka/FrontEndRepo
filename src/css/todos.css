@@ -13,9 +13,10 @@ body {
 }
 
 .content {
-  min-height: calc(100vh - 40px); 
+  min-height: calc(100vh - 70px); 
 }
-/* Header  */
+
+/* Header */
 
 .header {
   display: flex;
@@ -53,7 +54,7 @@ body {
  
 .footer {
     background-color: #4C1C24;
-    padding: 20px 0px 20px;
+    padding: 25px 0px 20px;
     color: #EDEDED;
 }
   
