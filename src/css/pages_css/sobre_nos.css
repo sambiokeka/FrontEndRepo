@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 
 .cabeçalho2 {
     color: #fff;
