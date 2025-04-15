@@ -1,4 +1,4 @@
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
     .background {
         height: 360px;
     }   
@@ -37,4 +37,29 @@
     .conteudo_home img {
         width: 15rem; 
     }
+} */
+
+@media (max-width: 1698px) {
+    .imagem {
+        z-index: -1;
+        margin-left: -800px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .imagem {
+        z-index: -1;
+        margin-left: -500px;
+
+    }
+
+}
+
+@media (max-width: 1509px) {
+    .imagem {
+        z-index: -1;
+        margin-left: -500px;
+
+    }
+
 }

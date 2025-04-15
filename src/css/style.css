@@ -31,7 +31,6 @@ body {
     margin-top: 2.4rem;
 }
 
-
 .imagem {
     display: flex;
 }
@@ -53,14 +52,17 @@ body {
 
 .conteudo_home h3 {
     margin-top: 1vh;
-    font-size: 3.7rem;
+    text-align: center;
+    font-size: clamp(2.5rem, 5vw, 3.7rem);
 }
 
 .conteudo_home ul {
     margin-top: 5vh;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
 }
 
 .img_border {
@@ -71,23 +73,23 @@ body {
 .conteudo_home img {
     margin-top: 20px;
     margin-bottom: 10px;
-    width: 25rem; 
+    width: clamp(200px, 30vw, 25rem);
     height: auto;
     object-fit: cover;
 }
 
-
 .conteudo_home li {
     font-size: 1rem;
     text-align: center;
+    max-width: 100%;
 }
 
 .conteudo_home h4 {
     margin-top: 25px;
-    font-weight: 1;
+    font-weight: 300;
 }
 
 .conteudo_home {
     margin-bottom: 5vh;
+    padding: 0 clamp(16px, 5vw, 120px);
 }
-
