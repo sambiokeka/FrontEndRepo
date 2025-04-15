@@ -79,7 +79,9 @@
     .imagem img {
         width: 0px;
     }
-
+    .principal h5 {
+        margin-top: 0vh;
+    }
 }
 
 @media (max-width: 1066px) {
@@ -87,4 +89,5 @@
         width: 0px;
     }
 }   
+
 
