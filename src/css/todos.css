@@ -31,7 +31,8 @@ body {
   color: #E8C547;
 }
 
-.logo {
+.logo a {
+  text-decoration: none;
   color: #E8C547;
   font-size: 1.8rem;
   font-weight: bold;
