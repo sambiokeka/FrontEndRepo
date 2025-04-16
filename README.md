@@ -2,7 +2,7 @@
 
 Bem-vindo(a) ao **FrontEndRepo**! Este repositório contém o front-end de um projeto que utiliza principalmente HTML e CSS. 
 
-Feito por:
+Feito por:<br>
 -Erick Jooji<br>
 -Guilherme Godoy<br>
 -Luiz Dalboni<br>
