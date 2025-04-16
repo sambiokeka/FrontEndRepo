@@ -1,0 +1,93 @@
+/* @media (max-width: 1366px) {
+    .background {
+        height: 360px;
+    }   
+    
+    .texto h2 {
+        margin-bottom: 40px;
+        width: 28rem;
+        font-size: 2.6rem;
+    }
+    
+    .texto h5 {
+        width: 20rem;
+        font-size: 0.8rem;
+        margin-top: 2.4rem;
+    }
+    
+    .imagem .fundo_imagem {
+        height:400px;
+        width: 100px;
+    }
+    
+    .principal img {
+        width: 300px;
+    }
+    
+    
+    .conteudo_home h3 {
+        margin-top: -7vh;
+        font-size: 2.7rem;
+    }
+    
+    .conteudo_home ul {
+        margin-top: 5vh;
+    }
+    
+    .conteudo_home img {
+        width: 15rem; 
+    }
+} */
+
+@media (max-width: 1698px) {
+    .imagem {
+        z-index: -1;
+        margin-left: -800px;
+    }
+}
+
+@media (max-width: 1509px) {
+    .imagem {
+        margin-left: -500px;
+    }
+}
+
+@media (max-width: 1466px) {
+    .imagem img {
+        width: 0px;
+    }
+    .conteudo_home h3 {
+        margin-top: 10vh;
+    }
+    .principal h2, h5 {
+        position: relative;
+        text-align: center;
+        background-color: #0f0f0f3f;
+    }
+
+    .texto {
+        text-align: center; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+    }
+}
+
+@media (max-width: 1206px) {
+    .imagem img {
+        width: 0px;
+    }
+    .principal h5 {
+        margin-top: 0vh;
+    }
+}
+
+@media (max-width: 1066px) {
+    .imagem {
+        width: 0px;
+    }
+}   
+
+

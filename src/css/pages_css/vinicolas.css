@@ -1,1 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+}
+
+.subHeader {
+  background-color: #6B2E33;
+  color: #fff;
+  padding: 50px 180px;
+}
+
+.subHeader h1 {
+  font-size: 48px
+}
+
+.containerVinicolas {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 180px;
+  gap: 45px;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.vinicola {
+  display: flex;
+  width: 80%;
+  gap: 30px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text h2, h4 {
+  color: #0F0F0F;
+}
+
+.text h2 {
+  font-size: 24px;
+}
+
+.text h4 {
+  font-size: 16px;
+}
+
+.text span {
+  font-size: 18px;
+  color: #7A7A7A;
+}
+
+.detail {
+  background-color: #E8C547;
+  width: 12px;
+  height: 8px;
+  border-radius: 30%;
+}
