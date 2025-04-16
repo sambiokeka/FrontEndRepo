@@ -91,10 +91,8 @@ body {
     padding: 0 clamp(16px, 5vw, 120px);
 }
 
-.section {
-    margin-bottom: 0; 
-    padding-bottom: 0; 
-}
+
+
 
 
 .dot {
@@ -108,7 +106,6 @@ body {
 }
 
 .meio h4{
-    margin-top: 4vh;
     text-align: center;
     font-size: 4rem;
     color: #ffffff;
@@ -118,14 +115,23 @@ body {
 .video {
     margin: 4vh auto;
     display: block; 
+    border:#0F0F0F 5px solid;
 }
 
+.video video {
+    display: block; 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    box-sizing: border-box; 
+}
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 0 auto; 
-    background-color: #4b1d27;
+    background-color: #4C1C24;
+    margin-bottom: 5vh; 
 }
 
 td {
