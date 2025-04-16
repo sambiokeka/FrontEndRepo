@@ -1,8 +1,12 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #faf9f7;
+.subHeader {
+  background-color: #6B2E33;
+  color: #fff;
+  padding: 50px 180px;
 }
 
+.subHeader h1 {
+  font-size: 48px
+}
 
 nav ul {
   display: flex;
