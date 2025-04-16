@@ -10,11 +10,10 @@ Bem-vindo(a) ao **FrontEndRepo**! Este repositório contém o front-end de um pr
 - [Uso](#uso)
 - [Contribuição](#contribuição)
 - [Links Úteis](#links-úteis)
-- [Licença](#licença)
 
 ## Descrição
 
-O **FrontEndRepo** é um projeto voltado para a criação de interfaces web modernas e acessíveis. Ele foi desenvolvido com o objetivo de oferecer uma base sólida para projetos front-end, focando em design responsivo e boas práticas de desenvolvimento.
+O **FrontEndRepo** é um projeto voltado de faculdade, da matéria de Front End. Ele foi desenvolvido com o objetivo de oferecer uma base sólida para projetos front-end, focando em design responsivo e boas práticas de desenvolvimento.
 
 ## Tecnologias Utilizadas
 
@@ -65,9 +64,5 @@ Contribuições são sempre bem-vindas! Para contribuir:
 ## Links Úteis
 
 - [Repositório no GitHub](https://github.com/sambiokeka/FrontEndRepo)
-- [Documentação do HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [Documentação do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Git Hub Pages](https://sambiokeka.github.io/FrontEndRepo/)
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
