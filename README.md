@@ -19,7 +19,7 @@ Feito por:<br>
 
 ## Descrição
 
-O **FrontEndRepo** é um projeto voltado de faculdade, da matéria de Front End. Ele foi desenvolvido com o objetivo de oferecer uma base sólida para projetos front-end, focando em design responsivo e boas práticas de desenvolvimento.
+O **FrontEndRepo** é um projeto de faculdade, da matéria de Front End. Ele foi desenvolvido com base no caso da vinheria do seu Júlio, dono da vinheria Agnello.
 
 ## Tecnologias Utilizadas
 
