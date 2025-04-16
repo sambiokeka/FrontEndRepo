@@ -3,11 +3,11 @@
 Bem-vindo(a) ao **FrontEndRepo**! Este repositório contém o front-end de um projeto que utiliza principalmente HTML e CSS. 
 
 Feito por:<br>
--Erick Jooji<br>
--Guilherme Godoy<br>
--Luiz Dalboni<br>
--Matheus Tozarelli<br>
--Rafael Lorenzini
+-Erick Jooji (RM: 564482)<br>
+-Guilherme Godoy (RM: 564417)<br>
+-Luiz Dalboni (RM: 564189)<br>
+-Matheus Tozarelli (RM: 563490)<br>
+-Rafael Lorenzini (RM: 563643)
 
 ## Índice
 
