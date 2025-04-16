@@ -7,7 +7,6 @@ Bem-vindo(a) ao **FrontEndRepo**! Este repositório contém o front-end de um pr
 - [Descrição](#descrição)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Instalação](#instalação)
-- [Uso](#uso)
 - [Contribuição](#contribuição)
 - [Links Úteis](#links-úteis)
 
@@ -37,10 +36,6 @@ Para rodar este projeto localmente, siga as etapas abaixo:
    ```
 
 3. Abra o arquivo `index.html` em seu navegador.
-
-## Uso
-
-Este projeto pode ser usado como base para criação de sites ou como aprendizado de HTML/CSS. Basta adaptar os arquivos existentes conforme suas necessidades.
 
 ## Contribuição
 
