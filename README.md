@@ -19,7 +19,8 @@ Feito por:<br>
 
 ## Descrição
 
-O **FrontEndRepo** é um projeto de faculdade, da matéria de Front End. Ele foi desenvolvido com base no caso da vinheria do seu Júlio, dono da vinheria Agnello.
+O **FrontEndRepo** é um projeto de faculdade, da matéria de Front End. Ele foi desenvolvido com base no caso da vinheria do sr.Giulio, dono da vinheria Agnello,<br>
+que após muita resistencia decidiu entrar no  mundo do e-commerce, após seguir os conselhos de sua filha Bianca.
 
 ## Tecnologias Utilizadas
 
