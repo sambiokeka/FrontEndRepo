@@ -77,6 +77,17 @@ footer .nav-list a:hover {
 .btn-submit:hover {
   background: #e6b800;
 } 
+
+input,
+textarea {
+  transition: transform 0.5s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+  transform: scale(1.05);
+}
+
 /* vinhos */
 @keyframes scaleUp {
   from {
