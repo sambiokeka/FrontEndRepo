@@ -88,6 +88,49 @@
     .imagem {
         width: 0px;
     }
+
+}   
+
+@media (max-width: 866px) {
+    .header {
+        padding: 52px 20px;
+    }
+
+    .videoVINHO {
+        display: none;
+    }
 }   
 
 
+@media (max-width: 600px) {
+    .header li {
+        display: none;
+    }
+    .header {
+        padding: 52px 0px;
+    }
+    .header a {
+       position: absolute;
+       width: 500px;
+       top: 15%;
+       left: 50%;
+       transform: translateX(-24%); 
+    }
+    .principal .texto h2{
+        position: absolute;
+        width: 300px;
+        font-size: 30px;
+        left: 50%;
+        top: 50%;
+       transform: translateX(-50%); 
+    }
+    .principal .texto h5{
+        display: none;
+    }
+    .principal {
+        margin-bottom: 150px;
+    }
+    .background {
+        height: 200px;
+    }
+}
