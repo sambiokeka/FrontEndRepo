@@ -70,11 +70,3 @@ img {
   height: 8px;
   border-radius: 30%;
 }
-
-.vinicola img {
-  transition: scale 0.5s ease-in-out; 
-}
-
-.vinicola img:hover {
-  scale: calc(1.05);
-}

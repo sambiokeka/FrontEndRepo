@@ -52,9 +52,6 @@ header .main-nav .nav-list li a {
   transition: color 0.3s;
 }
 
-header .main-nav .nav-list li a:hover {
-  color: #E8C547;
-}
 
 /* Footer */
  
@@ -74,14 +71,6 @@ header .main-nav .nav-list li a:hover {
   background-color: #4C1C24;
   padding: 50px 20px 30px;
   color: #EDEDED;
-}
-
-.containerBODY h1:first-child{
-  color: #E8C547;
-  font-weight: bold;
-  font-size: 1.8rem;
-  text-align: center;
-  margin-bottom: 40px;
 }
 
 .footer-content {
@@ -130,10 +119,6 @@ header .main-nav .nav-list li a:hover {
   transition: transform 0.3s ease;
 }
 
-.social-list a:hover img {
-  transform: scale(1.1);
-  filter: brightness(0) saturate(100%) invert(84%) sepia(32%) saturate(454%) hue-rotate(8deg) brightness(101%) contrast(96%);
-}
 
 footer .nav-list {
   list-style: none;
@@ -148,10 +133,6 @@ footer .nav-list a {
   color: #EDEDED;
   font-weight: 500;
   transition: color 0.3s;
-}
-
-footer .nav-list a:hover {
-  color: #E8C547;
 }
 
 .copyright {

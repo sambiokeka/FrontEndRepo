@@ -95,10 +95,6 @@ body {
   transition: transform 0.3s;
 }
 
-.social-icons a:hover {
-  transform: translateY(-3px);
-}
-
 /* Formulário */
 .contato-form {
   background: #fff;
@@ -152,10 +148,6 @@ body {
   cursor: pointer;
   transition: background 0.3s;
   text-transform: uppercase;
-}
-
-.btn-submit:hover {
-  background: #e6b800;
 }
 
 /* Seção de localização */

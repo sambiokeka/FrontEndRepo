@@ -1,5 +1,3 @@
-@import url(efeitos.css);
-
 body {
     overflow-x: hidden;
 }
@@ -138,4 +136,4 @@ td {
     padding: 10px;
 }
 
-@import 'efeitos.css'; 
+@import 'efeitos.css';
