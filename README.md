@@ -1,6 +1,6 @@
 # FrontEndRepo
 
-Bem-vindo(a) ao **FrontEndRepo**! Este repositório contém o front-end de um projeto que utiliza principalmente HTML e CSS. 
+Bem-vindo(a) ao **Vinheria Agnello**! Este repositório contém o front-end de um projeto que utiliza principalmente HTML e CSS. 
 
 Feito por:<br>
 - Erick Jooji (RM: 564482)<br>
@@ -20,7 +20,7 @@ Feito por:<br>
 
 ## Descrição
 
-O **FrontEndRepo** é um projeto de faculdade, da matéria de Front End. Ele foi desenvolvido com base no caso da vinheria do sr. Giulio, dono da **vinheria Agnello**, que após muita resistência decidiu entrar no mundo do e-commerce, seguindo os conselhos de sua filha Bianca.
+O **Vinheria Agnello** é um projeto de faculdade, da matéria de Front End. Ele foi desenvolvido com base no caso da vinheria do sr. Giulio, dono da **Vinheria Agnello**, que após muita resistência decidiu entrar no mundo do e-commerce, seguindo os conselhos de sua filha Bianca.
 
 ## Tecnologias Utilizadas
 
@@ -202,7 +202,3 @@ O projeto utiliza diversos efeitos visuais para melhorar a experiência do usuá
    }
    ```
    Aumenta suavemente o do minimapa, ao passar o mouse.
-
----
-
-> **Nota**: Atualize este README conforme necessário para refletir quaisquer mudanças no projeto.
