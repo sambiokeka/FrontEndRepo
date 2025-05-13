@@ -4,7 +4,6 @@ Bem-vindo(a) ao **FrontEndRepo**! Este repositório contém o front-end de um pr
 
 Feito por:<br>
 -Erick Jooji (RM: 564482)<br>
--Guilherme Godoy (RM: 564417)<br>
 -Luiz Dalboni (RM: 564189)<br>
 -Matheus Tozarelli (RM: 563490)<br>
 -Rafael Lorenzini (RM: 563643)

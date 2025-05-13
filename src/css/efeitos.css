@@ -1,0 +1,29 @@
+@keyframes scaleUp {
+  from {
+    transform: scale(1); 
+  }
+  to {
+    transform: scale(1.05); 
+  }
+}
+
+@keyframes scaleDown {
+  from {
+    transform: scale(1.05); 
+  }
+  to {
+    transform: scale(1); 
+  }
+}
+
+.img_border {
+  transform: scale(1);
+}
+
+.conteudo_home .img_border.hovered {
+  animation: scaleUp 0.5s ease-in-out forwards;
+}
+
+.conteudo_home .img_border.not-hovered {
+  animation: scaleDown 0.5s ease-in-out forwards;
+}
