@@ -25,8 +25,8 @@ que após muita resistencia decidiu entrar no  mundo do e-commerce, após seguir
 
 Este projeto foi construído utilizando:
 
-- **HTML** (68.2%)
-- **CSS** (31.8%)
+- **HTML** (63.4%)
+- **CSS** (35.1%)
 - **JS** (1.5%)
   
 ## Instalação
