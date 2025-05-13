@@ -77,3 +77,33 @@ footer .nav-list a:hover {
 .btn-submit:hover {
   background: #e6b800;
 } 
+/* vinhos */
+@keyframes scaleUp {
+  from {
+    transform: scale(1); 
+  }
+  to {
+    transform: scale(1.05); 
+  }
+}
+
+@keyframes scaleDown {
+  from {
+    transform: scale(1.05); 
+  }
+  to {
+    transform: scale(1); 
+  }
+}
+
+.vinho-card {
+  transform: scale(1);
+}
+
+.vinho-grid .vinho-card img.hovered {
+  animation: scaleUp 0.5s ease-in-out forwards;
+}
+
+.vinho-grid .vinho-card img.not-hovered {
+  animation: scaleDown 0.5s ease-in-out forwards;
+}
