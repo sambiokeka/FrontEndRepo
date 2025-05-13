@@ -76,7 +76,7 @@ header .main-nav .nav-list li a:hover {
   color: #EDEDED;
 }
 
-.footer-logo {
+h1:first-child{
   color: #E8C547;
   font-weight: bold;
   font-size: 1.8rem;

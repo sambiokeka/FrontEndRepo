@@ -1,3 +1,5 @@
+@import url(efeitos.css);
+
 body {
     overflow-x: hidden;
 }
@@ -92,9 +94,6 @@ body {
 }
 
 
-
-
-
 .dot {
     color:#ffffff;
 }
@@ -139,3 +138,4 @@ td {
     padding: 10px;
 }
 
+@import 'efeitos.css'; 
