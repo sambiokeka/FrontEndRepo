@@ -176,6 +176,33 @@ O projeto utiliza diversos efeitos visuais para melhorar a experiência do usuá
    ```
    Aumenta suavemente o tamanho das imagens das vinícolas ao passar o mouse.
 
+4. **Animação nos inputs do contatos**:
+   ```css
+   input,
+   textarea {
+     transition: transform 0.5s ease-in-out;
+   }
+   
+   input:focus,
+   textarea:focus {
+     transform: scale(1.05);
+   }
+   ```
+   Ao selecionar aumenta o tamanho dos inputs.
+
+5. **Aumenta o tamanho do mapa na página de contatos**:
+   ```css
+   .location-card {
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+   
+   .location-card:hover {
+     transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+   }
+   ```
+   Aumenta suavemente o do minimapa, ao passar o mouse.
+
 ---
 
 > **Nota**: Atualize este README conforme necessário para refletir quaisquer mudanças no projeto.
