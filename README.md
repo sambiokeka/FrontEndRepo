@@ -27,7 +27,8 @@ Este projeto foi construído utilizando:
 
 - **HTML** (68.2%)
 - **CSS** (31.8%)
-
+- **JS** (1.5%)
+  
 ## Instalação
 
 Para rodar este projeto localmente, siga as etapas abaixo:
