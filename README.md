@@ -93,7 +93,8 @@ O projeto utiliza diversos efeitos visuais para melhorar a experiência do usuá
 - `.btn-submit:hover`: Escurece o botão de envio ao clicar.
 
 ### Pseudo-Elementos
-- `::before` e `::after`: Usados para adicionar elementos decorativos, como linhas ou ícones, antes ou depois de títulos e textos importantes.
+- `.aumentar-primeira::first-letter`: Aumenta a primeira letra dos paragrafos do sobre nós.
+-`.sobre-nos-texto h2::first-letter`: Aumenta a primeira letra do h2 do sobre nós.
 
 ### Animações
 1. **Animação de zoom suave em imagens da home**:
