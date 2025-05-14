@@ -134,5 +134,9 @@ textarea:focus {
 
 
 .aumentar-primeira::first-letter {
-  font-size: 1.4em;
+  font-size: 1.34em;
+}
+
+.sobre-nos-texto h2::first-letter {
+  font-size: 1.43em;
 }
