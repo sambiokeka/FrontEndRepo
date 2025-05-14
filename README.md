@@ -95,6 +95,8 @@ O projeto utiliza diversos efeitos visuais para melhorar a experiência do usuá
 ### Pseudo-Elementos
 - `.aumentar-primeira::first-letter`: Aumenta a primeira letra dos paragrafos do sobre nós.
 -`.sobre-nos-texto h2::first-letter`: Aumenta a primeira letra do h2 do sobre nós.
+-`.sobre-nos-texto h2::before`: Adicionando um item decorativo antes do conteúdo.
+-`.sobre-nos-texto h2::after`: Adicionando uma linha para fims esteticos, após o conteúdo.
 
 ### Animações
 1. **Animação de zoom suave em imagens da home**:
