@@ -1,0 +1,138 @@
+/* header */
+
+header .main-nav .nav-list li a:hover {
+  color: #E8C547;
+}
+
+
+/* footer */
+
+footer .nav-list a:hover {
+  color: #E8C547;
+}
+
+.social-list a:hover img {
+  transform: scale(1.1);
+  filter: brightness(0) saturate(100%) invert(84%) sepia(32%) saturate(454%) hue-rotate(8deg) brightness(101%) contrast(96%);
+}
+
+.containerBODY h1:first-child{
+  color: #E8C547;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+/* INDEX */
+
+@keyframes scaleUp {
+  from {
+    transform: scale(1); 
+  }
+  to {
+    transform: scale(1.05); 
+  }
+}
+
+@keyframes scaleDown {
+  from {
+    transform: scale(1.05); 
+  }
+  to {
+    transform: scale(1); 
+  }
+}
+
+.img_border {
+  transform: scale(1);
+}
+
+.conteudo_home .img_border.hovered {
+  animation: scaleUp 0.5s ease-in-out forwards;
+}
+
+.conteudo_home .img_border.not-hovered {
+  animation: scaleDown 0.5s ease-in-out forwards;
+}
+
+
+/* VINICOLA */
+
+.vinicola img {
+  transition: scale 0.5s ease-in-out; 
+}
+
+.vinicola img:hover {
+  scale: calc(1.05);
+}
+
+/* CONTATOS */
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+}
+
+.btn-submit:hover {
+  background: #e6b800;
+} 
+
+input,
+textarea {
+  transition: transform 0.5s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+  transform: scale(1.05);
+}
+
+.location-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.location-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* VINHOS */
+
+@keyframes scaleUp {
+  from {
+    transform: scale(1); 
+  }
+  to {
+    transform: scale(1.05); 
+  }
+}
+
+@keyframes scaleDown {
+  from {
+    transform: scale(1.05); 
+  }
+  to {
+    transform: scale(1); 
+  }
+}
+
+.vinho-card {
+  transform: scale(1);
+}
+
+.vinho-grid .vinho-card img.hovered {
+  animation: scaleUp 0.5s ease-in-out forwards;
+}
+
+.vinho-grid .vinho-card img.not-hovered {
+  animation: scaleDown 0.5s ease-in-out forwards;
+}
+
+/* SOBRENOS */
+
+
+.aumentar-primeira::first-letter {
+  font-size: 1.4em;
+}

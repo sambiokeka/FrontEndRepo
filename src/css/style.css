@@ -92,9 +92,6 @@ body {
 }
 
 
-
-
-
 .dot {
     color:#ffffff;
 }
@@ -139,3 +136,4 @@ td {
     padding: 10px;
 }
 
+@import 'efeitos.css';

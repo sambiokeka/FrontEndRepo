@@ -41,9 +41,11 @@ main {
 
 .vinho-card {
   background: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 1rem;
   text-align: center;
+  border-radius: 10px;
+  border: gray 1px solid;
 }
 
 .vinho-card img {
